@@ -15,7 +15,7 @@ class AdminController extends Controller
      */
     public function index(): array
     {
-        return DB::select('SELECT FK_ID_USER FROM ADMINS');
+        return DB::select('SELECT fk_id_user FROM admins');
     }
 
     /**

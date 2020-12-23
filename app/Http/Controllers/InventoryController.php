@@ -62,11 +62,11 @@ class InventoryController extends Controller
      */
     public function show($id)
     {
-        $ItemsCollection = DB::select('SELECT LI.*, I.ID AS TRACKED_ID, I.FK_ID_ITEM, S.SEASON_NAME AS sea_name, I.isTracked
-        FROM (Inventories I INNER JOIN (LORE_ITEMS LI
-            INNER JOIN SEASONS S ON LI.FK_ID_SEASONS = S.ID) ON I.FK_ID_ITEM = LI.ID)
-            INNER JOIN USERS U ON I.FK_ID_USER = U.ID
-            WHERE U.ID ='.$id);
+        $ItemsCollection = DB::select('SELECT li.*, i.id AS tracked_id, i.fk_id_item, s.season_name AS sea_name, i.isTracked
+        FROM (inventories i INNER JOIN (lore_items li
+            INNER JOIN seasons s ON li.fk_id_seasons = s.id) ON i.fk_id_item = li.id)
+            INNER JOIN users u ON i.fk_id_user = u.id
+            WHERE u.id ='.$id);
 
         return $ItemsCollection;
     }

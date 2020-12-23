@@ -162,7 +162,7 @@
         data() {
             return {
                 isAdmin: false,
-                management: {},
+                management: [],
                 showingNavigationDropdown: false,
             }
         },
@@ -174,7 +174,7 @@
         methods: {
             ifInArray(value){
                 for(let i = 0; i < this.management.length; i++){
-                    if(this.management.find(x => x.FK_ID_USER === value)){
+                    if(this.management.find(x => x.fk_id_user === value)){
                         console.log('DENTRO'+ this.isAdmin)
                         return true;
                     }

@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1d51de-b60f-4086-9659-1edd39c6297a" name="Default Changelist" comment="Procfile for Heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InventoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InventoryController.php" afterDir="false" />
+    <list default="true" id="1d1d51de-b60f-4086-9659-1edd39c6297a" name="Default Changelist" comment="sql names corrections">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoreItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoreItemController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +261,7 @@
       <workItem from="1608664890962" duration="6469000" />
       <workItem from="1608676229744" duration="278000" />
       <workItem from="1608676774564" duration="5519000" />
-      <workItem from="1608684641738" duration="454000" />
+      <workItem from="1608684641738" duration="851000" />
     </task>
     <task id="LOCAL-00001" summary="database construction">
       <created>1607102543266</created>
@@ -301,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608680643130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sql names corrections">
+      <created>1608685325698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608685325698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +334,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="Complete JS Construction" />
     <MESSAGE value="Procfile for Heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile for Heroku" />
+    <MESSAGE value="sql names corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql names corrections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

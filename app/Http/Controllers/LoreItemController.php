@@ -18,7 +18,10 @@ class LoreItemController extends Controller
     public function index()
     {
 
-        $ItemsCollection = DB::select('SELECT lore_items.*, u.name AS admin, s.season_name AS sea_name  FROM ((lore_items INNER JOIN admins A ON a.id = lore_items.updated_by) INNER JOIN users u ON a.fk_id_user = u.id) INNER JOIN seasons s ON lore_items.fk_id_seasons = s.id');
+        $ItemsCollection = DB::select('SELECT lore_items.*, u.name AS admin, s.season_name AS sea_name  FROM ((lore_items
+    INNER JOIN admins a ON a.id = lore_items.updated_by)
+    INNER JOIN users u ON a.fk_id_user = u.id)
+    INNER JOIN seasons s ON lore_items.fk_id_seasons = s.id');
 
         return $ItemsCollection;
     }

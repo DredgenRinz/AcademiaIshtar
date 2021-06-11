@@ -31,7 +31,7 @@
             var seconds = 0;
             function redirect (){
                 if(seconds === 3) {
-                    window.location.replace( "{{ url('/dashboard') }}");
+                    window.location.replace( "{{ url('/Home') }}");
                 }
                 seconds+=0.5;
             }

@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1d51de-b60f-4086-9659-1edd39c6297a" name="Default Changelist" comment="sql names corrections 2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="1d1d51de-b60f-4086-9659-1edd39c6297a" name="Default Changelist" comment="modificando pagina inicio y redirects sin login">
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/routes-v7.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/routes-v7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayoutNoLog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayoutNoLog.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,8 +196,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\laragon\www\IshtarAcademy\resources\js\Layouts" />
-      <recent name="D:\laragon\www\IshtarAcademy\resources\js\Items" />
       <recent name="D:\laragon\www\IshtarAcademy\resources\js\Pages" />
+      <recent name="D:\laragon\www\IshtarAcademy\resources\js\Items" />
       <recent name="D:\laragon\www\IshtarAcademy\database\seeders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -266,7 +271,7 @@
       <workItem from="1608684641738" duration="1046000" />
       <workItem from="1608755603596" duration="1097000" />
       <workItem from="1622839026568" duration="2384000" />
-      <workItem from="1623444142327" duration="2588000" />
+      <workItem from="1623444142327" duration="4495000" />
     </task>
     <task id="LOCAL-00001" summary="database construction">
       <created>1607102543266</created>
@@ -317,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608685508839</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modificando pagina inicio y redirects sin login">
+      <created>1623447756175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623447756175</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +360,8 @@
     <MESSAGE value="Procfile for Heroku" />
     <MESSAGE value="sql names corrections" />
     <MESSAGE value="sql names corrections 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql names corrections 2" />
+    <MESSAGE value="modificando pagina inicio y redirects sin login" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificando pagina inicio y redirects sin login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

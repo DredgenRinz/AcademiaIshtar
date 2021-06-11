@@ -13,7 +13,18 @@
                         </div>
 
                         <!-- Navigation Links -->
+                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                                Noticias
+                            </jet-nav-link>
+
+                            <jet-nav-link :href="route('items.lista')" :active="route().current('items.lista')">
+                                Buscador de Items
+                            </jet-nav-link>
+                        </div>
                     </div>
+
+
 
                     <!-- Hamburger -->
                     <div class="-mr-2 flex items-center sm:hidden">
@@ -27,12 +38,32 @@
                 </div>
             </div>
 
+            <!-- Responsive Navigation Menu -->
+            <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="sm:hidden">
+                <div class="pt-2 pb-3 space-y-1">
+                    <jet-responsive-nav-link :href="route('Home')" :active="route().current('Home')">
+                        Dashboard
+                    </jet-responsive-nav-link>
+                </div>
+
+                <!-- Responsive Settings Options -->
+                <div class="pt-4 pb-1 border-t border-gray-200">
+
+                </div>
+            </div>
         </nav>
+
+        <!-- Page Heading -->
+
 
         <!-- Page Content -->
         <main>
             <slot></slot>
         </main>
+
+        <!-- Modal Portal -->
+        <portal-target name="modal" multiple>
+        </portal-target>
     </div>
 </template>
 
@@ -55,16 +86,40 @@
         data() {
             return {
                 isAdmin: false,
-                management: {},
+                management: [],
                 showingNavigationDropdown: false,
             }
         },
         created(){
+            this.listAdmin();
 
         },
 
         methods: {
+            ifInArray(value){
+                for(let i = 0; i < this.management.length; i++){
+                    if(this.management.find(x => x.fk_id_user === value)){
+                        console.log('DENTRO'+ this.isAdmin)
+                        return true;
+                    }
+                }
+                return false;
 
+
+            },
+            listAdmin(){
+              axios.get('Admins')
+                .then(datos => {
+                    this.management = datos.data
+                }
+                )
+            },
+
+            logout() {
+                axios.post(route('logout').url()).then(response => {
+                    window.location = '/';
+                })
+            },
         }
     }
 </script>

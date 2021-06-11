@@ -27,9 +27,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia\Inertia::render('Dashboard');
 })->name('dashboard');
 
-Route::get('/BuscadorItemsJuego', function () {
-    return Inertia\Inertia::render('ListaNoLogin');
-})->name('BuscadorItemsJuego');
+Route::get('/Home', function () {
+    return Inertia\Inertia::render('home');
+})->name('Home');
 
 Route::middleware(['auth:sanctum', 'verified'])
     ->get('/myself', [SkeletonController::class, 'myself'])
@@ -39,7 +39,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/TrackedItems', function (
     return Inertia\Inertia::render('buscador');
 })->name('items.buscador');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/ItemsList', function () {
+Route::get('/ItemsList', function () {
     return Inertia\Inertia::render('ListaItems');
 })->name('items.lista');
 

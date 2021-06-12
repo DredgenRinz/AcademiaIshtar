@@ -14,11 +14,11 @@
 
                         <!-- Navigation Links -->
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('Home')" :active="route().current('Home')">
                                 Noticias
                             </jet-nav-link>
 
-                            <jet-nav-link :href="route('items.lista')" :active="route().current('items.lista')">
+                            <jet-nav-link :href="route('items.listanl')" :active="route().current('items.listanl')">
                                 Buscador de Items
                             </jet-nav-link>
                         </div>

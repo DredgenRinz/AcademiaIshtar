@@ -28,7 +28,6 @@
         body {
             background-image: url('https://i.redd.it/cldidmu7aha31.png');
             background-size: cover;
-        //style=" background-image: url(https://i.redd.it/cldidmu7aha31.png); background-size: cover"
         }
     </style>
     <script type="text/javascript">

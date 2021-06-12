@@ -43,6 +43,10 @@ Route::get('/ItemsList', function () {
     return Inertia\Inertia::render('ListaItems');
 })->name('items.lista');
 
+Route::get('/ItemsList', function () {
+    return Inertia\Inertia::render('ListaNoLogin');
+})->name('items.listanl');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/AdminGameItems', function () {
     return Inertia\Inertia::render('AdminItem');
 })->name('items.AdminItem');

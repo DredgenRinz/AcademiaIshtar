@@ -26,7 +26,7 @@
 
     <style>
         body {
-            background-image: url('https://i.redd.it/cldidmu7aha31.png');
+            background-color: #293847;
             background-size: cover;
         }
     </style>

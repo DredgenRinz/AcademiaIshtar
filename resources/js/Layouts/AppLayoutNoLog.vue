@@ -17,9 +17,17 @@
                             <jet-nav-link :href="route('Home')" :active="route().current('Home')">
                                 Noticias
                             </jet-nav-link>
-
+                            <jet-nav-link :href="route('guides.gnl')" :active="route().current('guides.gnl')">
+                                Guías/Tutoriales
+                            </jet-nav-link>
                             <jet-nav-link :href="route('items.listanl')" :active="route().current('items.listanl')">
                                 Buscador de Items
+                            </jet-nav-link>
+                            <jet-nav-link :href="route('login')" :active="route().current('login')">
+                                Iniciar Sesión
+                            </jet-nav-link>
+                            <jet-nav-link :href="route('register')" :active="route().current('register')">
+                                Registrarse
                             </jet-nav-link>
                         </div>
                     </div>

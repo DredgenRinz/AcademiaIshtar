@@ -5,31 +5,73 @@
         </v-toolbar>
         <v-tabs vertical>
             <v-tab>
-                <v-icon left>mdi-account</v-icon>
-                Option 1
+                Trono Destrozado
+                (Ciudad ensoñada)
             </v-tab>
             <v-tab>
-                <v-icon left>mdi-lock</v-icon>
-                Option 2
+                Foso de la Herejía
+                (Luna)
             </v-tab>
             <v-tab>
-                <v-icon left>mdi-access-point</v-icon>
-                Option 3
+                Profecía
+                (Tierra)
+            </v-tab>
+            <v-tab>
+                Presagio
+                (Proximamente)
             </v-tab>
 
             <v-tab-item>
                 <v-card flat>
                     <v-card-text>
                         <p>
-                            Sed aliquam ultrices mauris. Donec posuere vulputate arcu. Morbi ac felis. Etiam feugiat lorem non metus. Sed a libero.
+                            <strong> OJO: Para acceder a la Mazmorra Trono Destrozado se necesita la expansión Destiny 2: Renegados.</strong>
+                        </p>
+                        <p>
+                            Recomendaciones de armas:
+                            Principal: Cañon de mano, Explorador, Subfusil
+                            Secundaria: Sniper, Escopeta
+                            Pesada: Anarquía (BEST), Espada
+
                         </p>
 
                         <p>
-                            Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aliquam lobortis. Aliquam lobortis. Suspendisse non nisl sit amet velit hendrerit rutrum.
+                            Para comenzar la mazmorra, abrir el Director (tecla M en pc, options/start en consolas), dirigirse a la Ciudad ensoñada y hacer click en el icono de mazmorra en el sector superior del mapa.
                         </p>
+                        <v-img
+                            src="/images/map.jpg"
+                            max-height="500"
+                            max-width="100%"
+                        />
+                        <p>
+                            Esto nos llevará a la entrada de la ciudadela poseída.
+                            Primeramente debemos avanzar hasta la puerta gigante para entrar, una vez abierta tendrémos que hacer unos saltos para llegar a la primera sala de mini jefe con el símbolo del aguila cayendo.
+                            Una vez muerto el caballero poseído, en el centro de la sala nos aparecerá el ícono de la siguiente sala a despejar. Debemos matar a los 7 mini bosses de la zona para continuar.
+                            Aquí les dejo un mapa para mejor ubicación, los símbolos son estáticos, pero el orden de limpieza de salas puede variar.
+                        </p>
+                        <v-img
+                            src="/images/trono_parte1.png"
+                            max-height="500"
+                            max-width="500"
+                            />
 
-                        <p class="mb-0">
-                            Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
+                        <p>
+                            Terminada la primera fase, tendremos que saltar a la brecha que se nos abre en aguila cayendo.
+                            Continuamos adelante y nos encontraremos en una quebrada donde debemos bajar y pelear con varios enemigos poseido comunes y poderosos, se recomienda usar explorador/sniper para limpiar a los más lejanos.
+                            Después de limpiar las primeras oleadas, nos encontraremos con un capitan poseido mini jefe de escudo solar, al vencerlo se abrirá la puerta detrás de él.
+                             Atención! en esta sala dependiendo de su clase/subclase, pueden llegar y pasar o limpiar y pasar. En caso de usar cazador de vacío rama de abajo, lanzar bomba de humo y esquivar cerca de enemigos para recargar el cuerpo a cuerpo y continuar adelante, lo mismo para rama de arriba.
+                            Para otras clases sin invisivilidad, es mejor limpiar la sala para avanzar. Tendremos caballeros poseidos poderosos, falanges poseidas comunes y hogoblins que dispararán desde la distancia al pasar de la puerta.
+                            Una vez cruzado el puente, nos encontraremos con un Parkour donde deberemos ir de pilar en pilar hasta la siguiente zona.
+                            OJO! en esta sala aparecerán ogros poseidos poderosos que los pueden botar de las plataformas, es muy recomendado matarlos antes de azanvar. Ademas hay 3 pilares en los que aparecerá una plaga poseída que les impedirá utilizarla.
+                        </p>
+                        <p>
+                            Una vez finalizado el Parkour, nos encontraremos con una sala desafío, tendremos que cruzar de un extremo al otro sin regeneración de vida y sin correr.
+                            En esta sala solo apareceran Lacayos poseidos comunes, sin embargo, aparecerán constantemente así que es recomendado eliminarlos con armas con libélula oreacción en cadena.
+                            Antes de bajar por la primera escalera, hay un cofre oculto, para llegar a este hay que saltar por el balcón, no te preocupes al bajar desaparecerá el debuff de movimiento y podrás saltar/planear para llegar donde se encuentra el cofre.
+                            Una vez lo tomes aparecerá un portal poseído que te llevará devuelta arriba.
+                        </p>
+                        <p>
+
                         </p>
                     </v-card-text>
                 </v-card>
